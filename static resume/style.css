@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.resume-container {
+    width: 100%;
+    max-width: 1000px;
+    background:white;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    margin: auto;
+}
+
+/* Left Column Styles */
+.left-column {
+    width: 35%;
+    background: #040b10;
+    color: white;
+    padding: 30px;
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-section {
+    margin-bottom: 30px;
+}
+
+.contact-section h2,
+.education-section h2 {
+    color: aquamarine;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+.contact-section ul {
+    list-style: none;
+}
+
+.contact-section ul li {
+    margin-bottom: 12px;
+    font-size: 0.95em;
+}
+
+.contact-section ul li b {
+    color: white;
+    margin-right: 8px;
+}
+
+.certification-section {
+    margin-bottom: 30px;
+}
+
+.certification-section h3 {
+    color: aquamarine;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+.certification-section p {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.certification-section p b {
+    color: white;
+}
+
+.education-section {
+    margin-bottom: 30px;
+}
+
+.education {
+    margin-bottom: 20px;
+}
+
+.education h3 {
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.education p {
+    color: white;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+}
+
+/* Right Column Styles */
+.right-column {
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+}
+
+.header-section {
+    margin-bottom: 30px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 20px;
+}
+
+.header-section h1 {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.header-section h2 {
+    color: black;
+    font-size: 1.4em;
+}
+
+.career-section,
+.experience-section {
+    margin-bottom: 30px;
+}
+
+.career-section h2,
+.experience-section h2,
+.skills-section h2 {
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+.career-section p,
+.experience-section p {
+    color: #010911;
+    line-height: 1.6;
+    font-size: 0.95em;
+}
+
+/* Skills Section */
+.skills-section {
+    margin-bottom: 30px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background: #098c93;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background: #3498db;
+    transition: width 0.5s ease-in-out;
+}
+
+
+
+
+
+
